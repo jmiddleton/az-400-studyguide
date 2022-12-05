@@ -1,9 +1,9 @@
 #
 # Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions
 
-Configure processes and communications (10—15%)
+## Configure processes and communications (10—15%)
 
-Configure activity traceability and flow of work
+### Configure activity traceability and flow of work
 
 [https://docs.microsoft.com/en-us/azure/devops/report/?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/report/?view=azure-devops)
 
@@ -11,7 +11,7 @@ Configure activity traceability and flow of work
 - Identify appropriate metrics related to flow of work, such as cycle times, time to recovery, and lead time
   - [https://docs.microsoft.com/en-us/azure/devops/report/dashboards/cycle-time-and-lead-time?view=azure-devops&viewFallbackFrom=vsts](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/cycle-time-and-lead-time?view=azure-devops&viewFallbackFrom=vsts)
 
-![](RackMultipart20221205-1-rh8pmn_html_17d12f77923cc267.png)
+![](images/work_metrics.png)
 
 - Integrate pipelines with work item tracking tools, such as Azure DevOps and GitHub
   - [https://www.azuredevopslabs.com/labs/vstsextend/github-azurepipelines/](https://www.azuredevopslabs.com/labs/vstsextend/github-azurepipelines/)
@@ -19,7 +19,7 @@ Configure activity traceability and flow of work
 - Integrate a repository with Azure Boards
   - [https://learn.microsoft.com/en-us/azure/devops/boards/queries/link-work-items-support-traceability?view=azure-devops&tabs=browser#work-items-linked-to-github-artifacts](https://learn.microsoft.com/en-us/azure/devops/boards/queries/link-work-items-support-traceability?view=azure-devops&tabs=browser#work-items-linked-to-github-artifacts)
 
-Configure collaboration and communication
+### Configure collaboration and communication
 
 - Communicate actionable information by using custom dashboards in Azure DevOps
 - Document a project by using tools, such as wikis and process diagrams
@@ -27,9 +27,9 @@ Configure collaboration and communication
 - Automate creation of documentation from Git history
 - Configure notifications by using webhooks
 
-Design and implement source control (15—20%)
+## Design and implement source control (15—20%)
 
-Design and implement a source control strategy
+### Design and implement a source control strategy
 
 - Design and implement an authentication strategy
   - [https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github)
@@ -41,7 +41,7 @@ Design and implement a source control strategy
 - Design a strategy for scaling and optimizing a Git repository, including Scalar and cross-repository sharing
 - Implement workflow hooks
 
-Plan and implement branching strategies for the source code
+### Plan and implement branching strategies for the source code
 
 - Design a branch strategy, including trunk-based, feature branch, and release branch
   - [https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance](https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops)
@@ -56,7 +56,7 @@ Plan and implement branching strategies for the source code
 - Implement branch merging restrictions by using branch policies and branch protections
   - [https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash](https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash?view=azure-devops)
 
-Configure and manage repositories
+### Configure and manage repositories
 
 - Integrate GitHub repositories with Azure Pipelines, one of the services in Azure DevOps
 - Configure permissions in the source control repository
@@ -64,15 +64,15 @@ Configure and manage repositories
 - Recover data by using Git commands
 - Purge data from source control
 
-Design and implement build and release pipelines (40—45%)
+## Design and implement build and release pipelines (40—45%)
 
-Design and implement pipeline automation
+### Design and implement pipeline automation
 
 [https://docs.microsoft.com/en-us/learn/paths/build-applications-with-azure-devops/](https://docs.microsoft.com/en-us/learn/paths/build-applications-with-azure-devops/)
 
 - Integrate pipelines with external tools, including dependency scanning, security scanning, and code coverage
 
-![](RackMultipart20221205-1-rh8pmn_html_32960e277f38fa48.png)
+![](images/securityindevops.png)
 
   - [https://docs.microsoft.com/en-au/learn/modules/introduction-to-secure-devops/](https://docs.microsoft.com/en-au/learn/modules/introduction-to-secure-devops/)
   - [https://docs.microsoft.com/en-au/devops/devsecops/enable-devsecops-azure-github](https://docs.microsoft.com/en-au/devops/devsecops/enable-devsecops-azure-github?view=azure-devops)
@@ -87,7 +87,7 @@ Design and implement pipeline automation
 - Design integration of automated tests into a pipeline
   - [https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/2-what-is-automated-testing](https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/2-what-is-automated-testing)
 
-![](RackMultipart20221205-1-rh8pmn_html_4ec34fb54b9802cd.png)
+![](images/agiletestingquadrants.png)
 
   - [https://docs.microsoft.com/en-au/learn/modules/configure-provision-environments/4-configure-automated-integration-functional-test-automation](https://docs.microsoft.com/en-au/learn/modules/configure-provision-environments/4-configure-automated-integration-functional-test-automation)
   - [https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/](https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/)
@@ -97,7 +97,7 @@ Design and implement pipeline automation
   - [https://docs.microsoft.com/en-au/learn/paths/az-400-implement-ci-azure-pipelines-github-actions/](https://docs.microsoft.com/en-au/learn/paths/az-400-implement-ci-azure-pipelines-github-actions/)
   - [https://docs.github.com/en/actions](https://docs.github.com/en/actions)
 
-Design and implement a package management strategy
+### Design and implement a package management strategy
 
 - Design a package management implementation that uses Azure Artifacts, GitHub Packages, NuGet, and npm
   - [https://docs.microsoft.com/en-us/azure/devops/artifacts/start-using-azure-artifacts](https://docs.microsoft.com/en-us/azure/devops/artifacts/start-using-azure-artifacts?view=azure-devops)
@@ -114,9 +114,9 @@ Design and implement a package management strategy
   - [https://cloudblogs.microsoft.com/industry-blog/en-gb/technetuk/2019/06/18/perfecting-continuous-delivery-of-nuget-packages-for-azure-artifacts/](https://cloudblogs.microsoft.com/industry-blog/en-gb/technetuk/2019/06/18/perfecting-continuous-delivery-of-nuget-packages-for-azure-artifacts/)
   - [https://www.darraghoriordan.com/2020/07/12/semantic-version-node-azure-devops/](https://www.darraghoriordan.com/2020/07/12/semantic-version-node-azure-devops/)
 
-Design and implement pipelines
+### Design and implement pipelines
 
-![](RackMultipart20221205-1-rh8pmn_html_6f7e04212e1ac98b.png)
+![](images/azurepipeline.png)
 
 - Select a deployment automation solution, including GitHub Actions and Azure Pipelines
   - [https://docs.microsoft.com/en-au/learn/paths/az-400-implement-ci-azure-pipelines-github-actions/](https://docs.microsoft.com/en-au/learn/paths/az-400-implement-ci-azure-pipelines-github-actions/)
@@ -125,7 +125,7 @@ Design and implement pipelines
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser#install](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser#install)
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops&tabs=yaml%2Cbrowser](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops&tabs=yaml%2Cbrowser)
 
-![](RackMultipart20221205-1-rh8pmn_html_8a5727580fd2e09f.png)
+![](images/azurepipelineservice.png)
 
 - Develop and implement pipeline trigger rules
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops)
@@ -148,7 +148,7 @@ Design and implement pipelines
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass)
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops)
 
-Design and implement deployments
+### Design and implement deployments
 
 - Design a deployment strategy, including blue/green, canary, ring, progressive exposure, feature flags, and A/B testing
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
@@ -164,7 +164,7 @@ Design and implement deployments
   - [https://devblogs.microsoft.com/devops/considerations-on-using-deployment-slots-in-your-devops-pipeline/](https://devblogs.microsoft.com/devops/considerations-on-using-deployment-slots-in-your-devops-pipeline/)
   - [https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#add-a-deployment-slot](https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots#add-a-deployment-slot)
 
-![](RackMultipart20221205-1-rh8pmn_html_c3bf24f8c4cf2c3.png)
+![](images/webtraffic.png)
 
 - Implement feature flags by using Azure App Configuration Feature Manager
   - [https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview)
@@ -172,13 +172,13 @@ Design and implement deployments
 - Implement application deployment by using containers, binary, and scripts
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases?view=azure-devops)
 
-Design and implement infrastructure as code (IaC)
+### Design and implement infrastructure as code (IaC)
 
 [https://docs.microsoft.com/en-au/learn/paths/az-400-manage-infrastructure-as-code-using-azure/](https://docs.microsoft.com/en-au/learn/paths/az-400-manage-infrastructure-as-code-using-azure/)
 
 _ **Configuration management** _ _refers to automated configuration management, typically in version-controlled scripts, for an application and all the environments needed to support it._
 
-![](RackMultipart20221205-1-rh8pmn_html_2627361d3c0500b7.png)
+![](images/configmanagement.png)
 
 - Recommend a configuration management technology for application infrastructure
 - Implement a configuration management strategy for application infrastructure, including IaC
@@ -188,7 +188,7 @@ _ **Configuration management** _ _refers to automated configuration management, 
   - [https://docs.microsoft.com/en-us/azure/automation/automation-dsc-overview](https://docs.microsoft.com/en-us/azure/automation/automation-dsc-overview)
   - [https://docs.microsoft.com/en-au/training/modules/implement-desired-state-configuration-dsc/1-introduction](https://docs.microsoft.com/en-au/training/modules/implement-desired-state-configuration-dsc/1-introduction)
 
-Maintain pipelines
+### Maintain pipelines
 
 - Monitor pipeline health, including failure rate, duration, and flaky tests
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/reports/pipelinereport?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/pipelines/reports/pipelinereport?view=azure-devops)
@@ -202,9 +202,9 @@ Maintain pipelines
 - Design and implement a retention strategy for pipeline artifacts and dependencies
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml](https://docs.microsoft.com/en-us/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml)
 
-Develop a security and compliance plan (10—15%)
+## Develop a security and compliance plan (10—15%)
 
-Design and implement a strategy for managing sensitive information in automation
+### Design and implement a strategy for managing sensitive information in automation
 
 - Implement and manage service connections
   - [https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
@@ -226,7 +226,7 @@ Design and implement a strategy for managing sensitive information in automation
   - [https://docs.microsoft.com/en-us/azure/devops/organizations/security/security-best-practices?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/organizations/security/security-best-practices?view=azure-devops)
   - [https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-security-identity?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-security-identity?view=azure-devops)
 
-Automate security and compliance scanning
+### Automate security and compliance scanning
 
 - Automate analysis of source code by using GitHub code scanning, GitHub secrets scanning, pipeline-based scans, and SonarQube
   - [https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning)
@@ -245,11 +245,11 @@ Automate security and compliance scanning
   - [https://marketplace.visualstudio.com/items?itemName=whitesource.whiteSource-bolt-v2](https://marketplace.visualstudio.com/items?itemName=whitesource.whiteSource-bolt-v2)
   - [https://docs.github.com/en/code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts](https://docs.github.com/en/code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts)
 
-Implement an instrumentation strategy (10—15%)
+## Implement an instrumentation strategy (10—15%)
 
-Configure monitoring for a DevOps environment
+### Configure monitoring for a DevOps environment
 
-![](RackMultipart20221205-1-rh8pmn_html_528ec033127fca9b.png)
+![](images/monitoring.png)
 
 [https://docs.microsoft.com/en-au/training/modules/implement-tools-track-usage-flow/](https://docs.microsoft.com/en-au/training/modules/implement-tools-track-usage-flow/)
 
@@ -262,7 +262,7 @@ Configure monitoring for a DevOps environment
   - [https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-access?tabs=portal](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-access?tabs=portal)
 - Configure alerts for pipeline events
 
-Analyze metrics
+### Analyze metrics
 
 - Inspect distributed tracing by using Application Insights
   - [https://learn.microsoft.com/en-us/azure/azure-monitor/app/distributed-tracing](https://learn.microsoft.com/en-us/azure/azure-monitor/app/distributed-tracing)
